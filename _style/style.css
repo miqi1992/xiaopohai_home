@@ -55,6 +55,14 @@ body>section>div.cover-main>ul>li>a {
 }
 
 
+.markdown-section {
+    margin: 0 auto;
+    max-width: 1000px;
+    padding: 30px 15px 40px;
+    position: relative;
+}
+
+
 pre {
     background-color: #f3f2ee !important;
 }

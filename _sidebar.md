@@ -1,5 +1,4 @@
-
- ## Java
+## Java
 
 - [📚 Java书籍](book/README.md)
 
