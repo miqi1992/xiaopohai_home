@@ -2,10 +2,10 @@
 HTML被认为是前端知识体系里面最简单的知识，几年前，很多人都推荐在W3C上学习个几天就能够基本掌握。但随着HTML5和移动端的强势发展，HTML的技能点越来越难。世上无难事，好学好总结，一个一个的击破，还愁不会吗？世上无难事，只要肯攀登，脑子笨，就得勤奋，别人一天学会，那你就用3、4天去学习。
 
 ### 语法  
-1. [基础语法](语法\01.grammar_baseGrammer.md)  
-2. [全局属性]()  
-3. [设计原则]()  
-4. [标签嵌套]()  
+1. [基础语法](blog/HTML/grammar/01.grammar_baseGrammar.md)  
+2. [全局属性](blog/HTML/grammar/02.grammar_attribute.md)  
+3. [设计原则](blog/HTML/grammar/03.grammar_strategy.md)  
+4. [标签嵌套](blog/HTML/grammar/04.grammar_tagNesting.md)    
 5. [条件注释]()  
 6. [语法规范]()  
 

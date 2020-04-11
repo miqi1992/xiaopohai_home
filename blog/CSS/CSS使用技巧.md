@@ -1,4 +1,3 @@
-
 # CSS使用技巧
 
 >本文将介绍使用CSS的一些技巧
@@ -266,3 +265,5 @@ CSS可以这样写：
 
     *html body{overflow: hidden;}
     *html div#content{height:100%;overflow: auto;}
+
+```
