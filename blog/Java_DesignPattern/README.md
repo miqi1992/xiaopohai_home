@@ -1,24 +1,7 @@
-# 《On Java 8》中文版
-
-## 书籍简介
-
-* 本书原作者为 [美] Bruce Eckel，即《Java 编程思想》的作者。
-* 本书是事实上的 《Java 编程思想》第五版。
-* 《Java 编程思想》第四版基于 JAVA **5** 版本；《On Java 8》 基于 JAVA **8** 版本。
-
-
-## 传送门
-
-- 目录阅读：[进入](https://github.com/LingCoder/OnJava8/blob/master/SUMMARY.md)
-
-- GitHub Pages 完整阅读：[进入](https://lingcoder.github.io/OnJava8/)
-
-- Gitee Pages 完整阅读：[进入](https://lingcoder.gitee.io/onjava8/)
-
-
-## 翻译进度
+# 《设计模式-Java》
 
 # 目录
+
 - [x] [第一章 介绍](blog/Java_DesignPattern/00.intro.md)
 - [x] [第二章 UML类图](blog/Java_DesignPattern/01.uml.md)
 - [x] [第三章 七大设计原则](blog/Java_DesignPattern/02.SevenPrinciples.md)
@@ -47,17 +30,6 @@
 - [x] [第二十六章 访问者模式](blog/Java_DesignPattern/25.访问者模式.md)
 - [x] [第二十七章 中介者模式](blog/Java_DesignPattern/26.备忘录模式.md)
 - [x] [第二十八章 迭代器模式](blog/Java_DesignPattern/27.解释器模式.md)
-
-## 原书资料
-
-<div align="left">
-<img src="https://raw.githubusercontent.com/LingCoder/OnJava8/master/cover_small.jpg"  alt="cover_small"/>
- </div>
-
-* 作者: Bruce Eckel 
-* ISBN: 9780981872520
-* 页数：2038
-* 发行：仅电子版
 
 
 
