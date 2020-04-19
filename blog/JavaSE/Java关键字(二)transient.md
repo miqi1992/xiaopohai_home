@@ -1,5 +1,3 @@
-> 本文由 [简悦 SimpRead](http://ksria.com/simpread/) 转码， 原文地址 https://blog.csdn.net/youanyyou/article/details/88218413
-
 先解释下什么是序列化
 ----------
 
@@ -16,7 +14,7 @@ Java 序列化技术正是将对象转变成一串由二进制字节组成的数
 
 **具体来看下面的示例 1**
 
-```
+```java
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
@@ -85,7 +83,7 @@ class User implements Serializable {
 
 **输出结果：**
 
-```
+```java
 序列化之前
 username: Java技术栈
 id: javastack
@@ -102,7 +100,7 @@ id: null
 
 这个话题也是最近栈长的 Java 技术栈 vip 群里面讨论的，大家对这个知识点比较模糊，我就写了这篇文章测试总结一下。
 
-![](http://img.javastack.cn/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20190214162351.png)
+![](http://img.javastack.cn/微信图片_20190214162351.png)
 
 > 如果你也想加入我们的 Java 技术栈 vip 群和各位大牛一起讨论技术，那点击[这个链接](https://mp.weixin.qq.com/s/iqCLAduVzDqt19L6D4FCUQ)了解加入吧。
 
@@ -110,7 +108,7 @@ id: null
 
 示例 2：
 
-```
+```java
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
@@ -178,7 +176,7 @@ class User2 implements Serializable {
 
 **输出结果：**
 
-```
+```java
 序列化之前
 username: Java技术栈1
 id: javastack
@@ -197,7 +195,7 @@ transient 真不能被序列化吗？
 
 继续来看示例 3：
 
-```
+```java
 import java.io.Externalizable;
 import java.io.File;
 import java.io.FileInputStream;
@@ -278,7 +276,7 @@ class User3 implements Externalizable {
 
 **输出结果：**
 
-```
+```java
 null
 javastack
 ```
@@ -299,11 +297,3 @@ transient 关键字总结
 3）transient 只能用来修饰普通成员变量字段；
 
 4）不管有没有 transient 修饰，静态变量都不能被序列化；
-
-好了，栈长花了半天时间，终于整理完了。如果对你有帮助，那就转发分享一下吧！如果你也想加入我们的 Java 技术栈 vip 群和各位大牛一起讨论技术，那点击[这个链接](https://mp.weixin.qq.com/s/iqCLAduVzDqt19L6D4FCUQ)了解加入吧
-
-另外，栈长已经整理了大量 Java 系列核心技术知识点文章，关注 Java 技术栈微信公众号，在后台回复关键字：java，即可获取最新版。
-
-> 本文原创首发于微信公众号：Java 技术栈（id:javastack），关注公众号在后台回复 “java” 可获取更多，转载请原样保留本信息。
-
-![](http://upload-images.jianshu.io/upload_images/5954965-b98e553af9442c61?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)

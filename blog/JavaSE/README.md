@@ -12,7 +12,9 @@
 - [x] [详解内部类](blog/JavaSE/java详解内部类.md)
 - [x] [动态代理](blog/JavaSE/java动态代理.md)
 - [x] [JDK源码阅读顺序](blog/JavaSE/java源码阅读顺序.md)
-- [x] [transient详解](blog/JavaSE/transient详解.md)
+- [x] [Java关键字(二)transient](blog/JavaSE/Java关键字(二)transient.md)
+- [x] [Java关键字(一)instanceof](blog/JavaSE/Java关键字(一)instanceof.md)
+- [x] [Java中静态常量与静态变量的区别](blog/JavaSE/Java中静态常量与静态变量的区别.md)
 
 ### Java 8详解
 
